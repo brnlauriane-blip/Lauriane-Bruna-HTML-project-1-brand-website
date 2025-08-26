@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+
+</style>
+</head>
+<body>
+
+/* Page du site */
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#aboutus">About Us</a></li>
+  <li><a href="#store">Store</a></li>
+  <li><a href="#event">Event</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+<main>
+  <h1 align="center">Bienvenue sur VAL'APPLE</h1>
+  <p align="center" font face="Arial">Découvrez notre univers : des produits éco-responsables ayant une empreinte carbone faible. Suivez nos dernières études et nos prochains évènements afin de nous rencontrer !</p>
+  <p align="center">Notre mission est simple : offrir une protection antibactérienne pour tous.tes tout en protégeant la nature.<br /></p>
+<p align="justify">Nous avons choisi les déchets de pommes comme source, car ils sont disponibles en grande quantité, représentent un déchet à valoriser, contiennent des molécules à forte valeur ajoutée et sont accessibles dans les deux régions. En 2022, 96 millions de tonnes de pommes ont été produites dans le monde, dont les trois quarts ont été consommés fraîches. Un quart a été transformé en produits à valeur ajoutée tels que tartes, confitures, cidre et jus de pomme, dont 65 % en boissons.<br />
+
+On estime ainsi que 16 à 18 millions de tonnes de pommes ont été transformées en boissons. Or, la production de boissons génère également des résidus. En 2022, on estime que 5 à 6 millions de tonnes de marc de pomme ont été produites, composées principalement d’eau (80 %), mais aussi de peau, pulpe, pépins et tiges.<br />
+
+Comment ce déchet est-il utilisé à l’échelle mondiale ? Dans de nombreux pays, il est enfoui dans le sol, ce qui entraîne des problèmes environnementaux et sanitaires en raison de sa forte teneur en eau mentionnée précédemment. Dans l’Union européenne, ce déchet est envoyé en digestion anaérobie, aussi appelée méthanisation. Dans les deux cas, il n’est pas valorisé.<br />
+
+D’autres solutions existent : son utilisation comme alimentation pour le bétail, mais cette pratique n’est plus en vigueur en France ni probablement dans l’UE à cause de la réglementation. Le marc de pomme peut également servir à produire du cuir végétal, des aliments fonctionnels ou des applications cosmétiques grâce à l’extraction de cires. Les activités biologiques jouent un rôle majeur, car je les utilise pour déterminer la conservation des extraits. Je me concentre particulièrement sur les polyphénols pour évaluer leur stabilité.<br />
+
+Les polyphénols sont des composés issus du métabolisme secondaire des plantes, dotés de nombreuses activités biologiques. Ils sont de plus en plus utilisés à des fins pharmaceutiques et cosmétiques.</p>
+</main>
+
+<table border="0">
+	<tr>
+		<td><img alt="Logo Val'Apple" align="center" src="logo valapple.png"  /></td>
+		<td><img alt="Production" src="production.png"  /></td>
+		<td><img alt="process" src="process.png"  /></td>
+	</tr>
+</table>
+
+
+</body>
+</html>

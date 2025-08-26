@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<style>
+.liste1 {
+font-family: Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: DarkGreen;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: OliveDrab;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: LightGrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+h1 {
+font-family: Arial, sans-serif;
+text-align:center;
+color: black;
+}
+
+h2 {
+font-family: Arial, sans-serif;
+text-align:center;
+color: black;
+}
+
+.liste2 {
+font-family: Arial, sans-serif;
+text-align: justify; 
+  font-size: 16px;                
+    line-height: 1.6;               
+    color: black; 
+list-style-type: square;
+margin-bottom: 20em;
+}
+
+.center-img {
+	text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+text-align: justify; 
+    font-size: 16px;                
+    line-height: 1.6;               
+    color: black;                    
+    margin-bottom: 1em; 
+margin-top: 1em;            
+
+footer {
+font-family: Arial, sans-serif;
+text-align: center;
+font-size:12px
+margin: 20px 0;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<ul class="liste1">
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">A propos ...</a>
+    <div class="dropdown-content">
+      <a href="#">Notre Histoire</a>
+      <a href="#">Notre Science</a>
+    </div>
+  <li><a href="#store">Store</a></li>
+  <li><a href="#event">Evènements</a></li>
+  <li><a href="#news">Actualités</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </li>
+</ul>
+
+<main>
+  <h1>Actulité</h1>
+<h2>Nouvelle arrivante</h2>
+<p>Nous avons le plaisir d’annoncer l’arrivée d’une nouvelle collaboratrice au sein de l’équipe : Poppy. Dotée d’une solide expérience et d’une grande curiosité intellectuelle, elle apporte un regard neuf et une énergie précieuse à notre structure. Son parcours l’a conduite à explorer différents domaines, toujours avec le souci de l’innovation et du respect des valeurs humaines et environnementales. <br />
+
+Poppy se distingue par son sens de l’organisation et sa capacité à travailler en équipe, deux qualités qui seront déterminantes pour accompagner la croissance de nos projets. Passionnée par les enjeux liés à la durabilité et à la recherche de solutions responsables, elle trouve pleinement sa place dans notre vision et nos ambitions.<br />
+
+Nous sommes convaincus que son dynamisme, sa créativité et son professionnalisme contribueront à renforcer la cohésion de l’équipe et à enrichir nos initiatives. Toute l’équipe lui souhaite la bienvenue et se réjouit de cette nouvelle collaboration, placée sous le signe de l’innovation, de l’engagement et de la réussite partagée.<br /></p>
+
+<img alt="Image de Poppy" align="center" src="poppy.jpg" width="600" height="294" />
+
+
+<footer align="center"> Contact : <a href="mailto:contact@valapple.com?Subject:Demande d'information">contact@valappple.com</a><br />
+<img alt="Logo Val'Apple" align="center" src="logo valapple.png" width="200" height="159" />
+</footer>
+
+
+</body>
+</html>

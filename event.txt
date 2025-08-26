@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<style>
+.liste1 {
+font-family: Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: DarkGreen;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: OliveDrab;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: LightGrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+h1 {
+font-family: Arial, sans-serif;
+text-align:center;
+color: black;
+}
+
+h2 {
+font-family: Arial, sans-serif;
+text-align:center;
+color: black;
+}
+
+.center-img {
+	text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+text-align: justify; 
+    font-size: 16px;                
+    line-height: 1.6;               
+    color: black;                    
+    margin-bottom: 1em; 
+margin-top: 1em;            
+
+footer {
+font-family: Arial, sans-serif;
+text-align: center;
+font-size:12px
+margin: 20px 0;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<ul class="liste1">
+  <li><a href="#home">Home</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">A propos ...</a>
+    <div class="dropdown-content">
+      <a href="#">Notre Histoire</a>
+      <a href="#">Notre Science</a>
+    </div>
+  <li><a href="#store">Store</a></li>
+  <li><a href="#event">Evènements</a></li>
+  <li><a href="#news">Actualités</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </li>
+</ul>
+
+<main>
+  <h1>Evènements</h1>
+
+<p> Sur cette page, vous retrouverez toutes nos dernières actualités comme les articles scientifiques publiés et les participations à des congrès !</p>
+
+<h2>Publications</h2>
+<p><b>Publication acceptée sur l'Analyse de Cycle de Vie des procédés CO<sub>2</sub> supercritique et Eau subcritique !</b><br />
+Le marc de pomme (MP), sous-produit des industries du jus de pomme et du cidre, constitue un défi majeur en matière de gestion des déchets, avec environ 5 millions de tonnes produites en 2021. Souvent mis en décharge, le MP contribue à des risques sanitaires et environnementaux. Malgré son élimination, le MP reste une source précieuse de composés bioactifs, reconnus pour leurs propriétés biologiques.
+
+Cette étude évalue l’empreinte carbone associée à l’extraction de ces composés bioactifs en utilisant des technologies innovantes, à savoir le CO₂ supercritique (SC-CO₂) et l’extraction à l’eau subcritique (SWE). En utilisant le logiciel SimaPro et la base de données ecoinvent, des évaluations du cycle de vie (ACV ; du berceau à la porte) ont été réalisées pour l’extraction d’1 g de composés bioactifs à partir du MP.
+
+Les résultats révèlent que le procédé SC-CO₂ émet 71,42 kgCO₂éq, tandis que le SWE entraîne des émissions nettement plus faibles de 6,20 kgCO₂éq. Ces résultats mettent en évidence l’impact environnemental des différentes technologies d’extraction et soulignent le potentiel de pratiques plus durables pour la valorisation du marc de pomme.</p><br />
+
+<p><em>Lien à venir</em></p>
+
+<img alt="Image d'illustration pour l'ACV" align="center" src="lca abstract.png" width="200" height="159" />
+
+<p><b>Article publié sur l'extraction à l'aide de NADES et les propriétés biologiques !</b><br />
+L’objectif de cette étude était d’évaluer les propriétés antioxydantes et antibactériennes des extraits de marc de pomme (MP) en utilisant des solvants eutectiques profonds naturels (NADES). Six NADES, à base de chlorure de choline (ChCl), ont été utilisés comme solvants respectueux de l’environnement. Quatre d’entre eux ont été combinés avec des acides organiques, tandis que les deux autres ont été combinés avec de l’urée ; ils ont ensuite été utilisés pour extraire les composés bioactifs du MP.
+
+Le mélange ChCl:urée s’est révélé être le solvant présentant la teneur totale en polyphénols (TPC) la plus élevée, avec 13,15 ± 4,70 mg équivalent acide gallique/mL. L’activité antioxydante et la teneur totale en anthocyanidines (TAC) ont également été évaluées. Le mélange ChCl:acide oxalique a enregistré les valeurs les plus élevées, avec respectivement 35,59 ± 9,53 mg extrait/mL et 64,81 ± 4,65 μg/mL équivalent malvidine-3-glucose.
+
+Le pH du solvant joue un rôle crucial dans l’extraction sélective : un pH acide favorise l’extraction sélective des anthocyanidines, tandis qu’un pH basique ne le permet pas. L’extraction des anthocyanidines a été corrélée à l’activité antioxydante des extraits et à la viscosité du solvant.
+
+Par ailleurs, l’activité antibactérienne des extraits a été étudiée contre les souches de Bacillus cereus, Listeria innocua et Escherichia coli. Tous les extraits ont montré des propriétés antibactériennes contre les souches testées. Les extraits ChCl:acide oxalique ont présenté des concentrations minimales inhibitrices particulièrement faibles (par exemple, 25 mg extrait/mL pour B. cereus) et des valeurs EC50 réduites (par exemple, 6,0 ± 0,3 mg extrait/mL pour B. cereus).</p><br />
+
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1155/jfbc/8483951><em>Lien vers l'article</em></a>
+
+<img alt="Image d'illustration pour les NADES" align="center" src="nades abstract.png" width="200" height="159" />
+
+<p><b>Revue publiée sur la gestion des déchets de marc de pomme : extraction de molécules antimicrobiennes par des technologies vertes !</b><br />
+Cette revue se concentre sur l’utilisation des déchets de pomme à des fins antimicrobiennes, dans le but d’en accroître la valeur. L’emploi de fluides sub- et supercritiques pour l’extraction de molécules biologiques est souligné comme une technologie d’éco-extraction prometteuse. L’étude met en évidence les activités antimicrobiennes significatives observées dans les extraits obtenus à partir des déchets de pomme.
+
+De plus, l’influence des conditions d’extraction et de stockage sur le profil chimique et l’activité biologique de ces extraits est discutée. L’extraction au CO₂ supercritique s’est révélée produire des extraits de qualité supérieure par rapport aux méthodes conventionnelles, principalement en raison de l’absence d’air et de lumière. Pour préserver les propriétés chimiques et biologiques des extraits, il est crucial de contrôler soigneusement les prétraitements, les procédés de séchage et les conditions de stockage des déchets de pomme.
+
+Enfin, cette revue explore le potentiel d’amélioration des activités biologiques grâce à des méthodes de fonctionnalisation physico-chimiques.
+
+<a href="https://link.springer.com/article/10.1007/s12649-024-02432-4><em>Lien vers l'article</em></a>
+
+<img alt="Image d'illustration pour la revue" align="center" src="revue abstract.png" width="200" height="159" />
+
+
+<footer align="center"> Contact : <a href="mailto:contact@valapple.com?Subject:Demande d'information">contact@valappple.com</a><br />
+<img alt="Logo Val'Apple" align="center" src="logo valapple.png" width="200" height="159" />
+</footer>
+
+
+</body>
+</html>
