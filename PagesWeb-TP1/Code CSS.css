@@ -94,10 +94,12 @@ margin-top: 1em;
 }
 
 .yourclass {
-	text-align: justify;
+	text-align: left;
 	text-decoration: none;
 
-}         
+}
+
+
 
 footer {
 font-family: Arial, sans-serif;
